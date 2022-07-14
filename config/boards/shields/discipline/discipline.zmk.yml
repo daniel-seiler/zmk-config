@@ -1,0 +1,8 @@
+file_format: "1"
+id: discipline
+name: Discipline
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [nice_nano_v2]
+features:
+  - keys

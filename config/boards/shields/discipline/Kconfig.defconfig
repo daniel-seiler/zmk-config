@@ -1,0 +1,6 @@
+if SHIELD_DISCIPLINE
+
+config ZMK_KEYBOARD_NAME
+	default "DISCIPLINE"
+
+endif
