@@ -1,2 +1,2 @@
-config DISCIPLINE
+config discipline
 	def_bool $(shields_list_contains, discipline)
