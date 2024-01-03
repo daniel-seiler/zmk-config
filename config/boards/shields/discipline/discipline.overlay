@@ -7,10 +7,10 @@
 		compatible = "zmk,kscan-gpio-matrix";
 		label = "KSCAN";
 		diode-direction = "col2row";
-		debounce-press-ms = 5;
-		debounce-release-ms = 5;
-		debounce-scan-period-ms = 1;
-		poll-period-ms = 10;
+		debounce-press-ms = <5>;
+		debounce-release-ms = <5>;
+		debounce-scan-period-ms = <1>;
+		poll-period-ms = <10>;
 
 		col-gpios
 			= <&gpio0 2 GPIO_ACTIVE_HIGH>
