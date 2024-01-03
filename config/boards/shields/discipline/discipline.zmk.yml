@@ -2,7 +2,7 @@ file_format: "1"
 id: discipline
 name: Discipline
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/coseyfannitutti/discipline
 requires: [nice_nano_v2]
 features:
   - keys
