@@ -1,2 +1,5 @@
-config DISCIPLINE
-	def_bool $(shields_list_contains, discipline)
+config DISCIPLINE_DONGLE
+	def_bool $(shields_list_contains, discipline_dongle)
+
+config DISCIPLINE_BOARD
+	def_bool $(shields_list_contains, discipline_board)

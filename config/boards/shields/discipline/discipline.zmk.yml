@@ -6,3 +6,6 @@ url: https://github.com/coseyfannitutti/discipline
 requires: [nice_nano_v2]
 features:
   - keys
+siblings:
+  - discipline_dongle
+  - discipline_board

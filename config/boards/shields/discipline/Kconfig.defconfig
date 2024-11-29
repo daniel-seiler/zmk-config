@@ -1,6 +1,23 @@
-if DISCIPLINE
+if DISCIPLINE_DONGLE
 
 config ZMK_KEYBOARD_NAME
-	default "discipline"
+	default "discipline dongle"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+	
+config ZMK_USB
+	default y
+
+endif
+
+
+if DISCIPLINE_BOARD
+
+config ZMK_KEYBOARD_NAME
+	default "discipline board"
+
+config ZMK_BLE
+	default y
 
 endif
