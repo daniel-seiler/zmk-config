@@ -1,2 +1,5 @@
-board: [ "nice_nano_v2" ]
-shield: [ "discipline" ]
+include:
+  - board: nice_nano_v2
+    shield: discipline_board
+  - board: nice_nano_v2
+    shield: discipline_dongle
